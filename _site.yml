@@ -1,0 +1,19 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  type: inverse
+  left:
+    - text: "Schedule"
+      href: schedule.html
+    - text: "Resources"
+      href: resources.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: mailto:<biostats.columbia@gmail.com>
+    - icon: fa-github fa-lg
+      href: https://github.com/columbia-computing-club
+output:
+  html_document:
+    theme: yeti
+    css: styles.css
