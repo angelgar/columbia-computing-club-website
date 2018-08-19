@@ -2,7 +2,6 @@ name: "Yay internet!"
 output_dir: "."
 navbar:
   title: "Home"
-  type: inverse
   left:
     - text: "Schedule"
       href: schedule.html
@@ -15,5 +14,5 @@ navbar:
       href: https://github.com/columbia-computing-club
 output:
   html_document:
-    theme: yeti
+    theme: cerulean
     css: styles.css
